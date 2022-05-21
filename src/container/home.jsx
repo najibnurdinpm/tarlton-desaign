@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import CompNav from "../component/NavbarComp";
 import jbtrHome from "../../src/img/home/jbtr-home.png"
 import cirlceMobile from "../../src/img/home/circle-red-mobile.png"
@@ -27,7 +27,7 @@ import PEIZ2 from "../../src/img/home/pearl-izumi-2.png"
 import ADAPT2 from "../../src/img/home/adapt-2.png"
 import ASSETINV from "../../src/img/home/asset-involvet.png"
 import CSB from "../../src/img/home/circle-sky-blue.png"
-import TLI from "../../src/img/home/three-line-involted.png"
+// import TLI from "../../src/img/home/three-line-involted.png"
 import RLH from "../../src/img/home/red-line-hero.png"
 import RLHD from "../../src/img/home/red-line-hero-dekstop.png"
 import VH from "../../src/img/home/vector-hero.png"
@@ -46,22 +46,13 @@ import CPCD1 from "../../src/img/home/logo-partner-dekstop/CP-Construction-1.png
 import AIMD1 from "../../src/img/home/logo-partner-dekstop/Athletes-in-Motion-1.png"
 import KPSYD1 from "../../src/img/home/logo-partner-dekstop/Kinetic-Performance-Systems-1.png"
 import KPSD1 from "../../src/img/home/logo-partner-dekstop/Big-Pete-letters-only-1.png"
-import BPLOD1 from "../../src/img/home/logo-partner-dekstop/Big-Pete-letters-only-1-new.png"
+// import BPLOD1 from "../../src/img/home/logo-partner-dekstop/Big-Pete-letters-only-1-new.png"
 import PearlID2 from "../../src/img/home/logo-partner-dekstop/Pearl-iZumi-2.png"
 import ADAPTD2 from "../../src/img/home/logo-partner-dekstop/Adapt-2.png"
 import LINED77 from "../../src/img/home/logo-partner-dekstop/Line-77.png"
 import VECTORD from "../../src/img/home/logo-partner-dekstop/Vector.png"
 import LBID from "../../src/img/home/line-bottom-involted.png";
-import {gsap, TimelineLite, Power3} from 'gsap'
-
-// class HomeComp extends React.Component {
     const HomeComp = () => {
-        console.log('test')
-    // render() {
-        // let t1 = new TimelineLite({delay:0.3});
-        // useEffect(()=>{
-        //     t1.from('.contain-img-hero', {y: 15, opacity: 0, ease:Power3.easeOut, delay: 0.2}, 'Start')
-        // }, [])
         return <><div>
             <div className="lg:mb-[111px]">
                 <CompNav />
@@ -592,6 +583,5 @@ import {gsap, TimelineLite, Power3} from 'gsap'
            </section>
         </div></>
     }
-// }
 
 export default HomeComp;

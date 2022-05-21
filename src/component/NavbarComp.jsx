@@ -8,9 +8,6 @@ const CompNav = () => {
     <div className="w-full lg:container lg:mx-auto  lg:px-[80px]">
       <div className="flex items-center justify-between relative ">
         <div className="px-4">
-          {/* <a href="" className="font-bold text-lg text-primary block pt-[20px] pb-[10px] lg:py-[30px]">
-            <img src={logo} className="" alt="" />
-          </a> */}
           <Link className="font-bold text-lg text-primary block pt-[20px] pb-[10px] lg:py-[30px]" to="/">
             <img src={logo} className="" alt="" />
           </Link>
@@ -46,7 +43,7 @@ const CompNav = () => {
                 <Link className="text-base text-dark py-2 mx-8 flex text-white text-[38px] leading-[48px] lg:text-[#313333] lg:font-[400] lg:text-[18px] lg:leading-[35px]" to="/contact">Contact</Link>
               </li>
               <li className="group">
-                <a href="" className="bg-[#B31137] hidden lg:block h-[40px] px-3 mx-8 text-center w-[96px] relative top-2  text-white font-[400] text-[18px] leading-[35px]">Donate</a>
+                <a className="bg-[#B31137] hidden lg:block h-[40px] px-3 mx-8 text-center w-[96px] relative top-2  text-white font-[400] text-[18px] leading-[35px]">Donate</a>
               </li>
               <li className="group mt-4">
                   <button className="hover:bg-red-900 duration-100 delay-400 bg-white text-white p-1 px-[17px] py-2 mx-4 lg:hidden" > <span className="text-[38px] leading-[48px] text-[#B31137]">Donate</span></button >
